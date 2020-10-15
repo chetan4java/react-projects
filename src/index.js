@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import Demo from './Demo';
 import * as serviceWorker from './serviceWorker';
+ import Avatar from './Avatar';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+// ReactDOM.render(<Demo  name="chetan badgujar" friend="hi friends"/>,  document.getElementById('root')
+ ReactDOM.render(<Avatar />,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
